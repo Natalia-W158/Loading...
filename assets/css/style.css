@@ -1,0 +1,17 @@
+/* Übung LEV 1_1 CSS-Vertiefung Transition */
+
+.border-box{
+    border: 5px solid black;
+}
+
+.block-box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: width 2s .2s ease;
+}
+
+.block-box:hover{
+    width: 1000px;
+}
+
